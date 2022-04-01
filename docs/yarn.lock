@@ -1466,8 +1466,26 @@
     upath "^2.0.1"
 
 "@nuxt/kit@link:../packages/kit":
-  version "0.0.0"
-  uid ""
+  version "3.0.0"
+  dependencies:
+    consola "^2.15.3"
+    create-require "^1.1.1"
+    defu "^5.0.0"
+    dotenv "^10.0.0"
+    globby "^11.0.4"
+    hash-sum "^2.0.0"
+    hookable "^5.0.0"
+    jiti "^1.12.7"
+    lodash.template "^4.5.0"
+    mlly "^0.2.6"
+    pathe "^0.2.0"
+    rc9 "^1.2.0"
+    scule "^0.2.1"
+    semver "^7.3.5"
+    std-env "^2.3.1"
+    ufo "^0.7.9"
+    unctx "^1.0.2"
+    untyped "^0.2.9"
 
 "@nuxt/kit@npm:@nuxt/kit-edge":
   version "3.0.0-27226619.4572661"
@@ -7409,9 +7427,9 @@ nan@^2.12.1:
   integrity sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==
 
 nanoid@^3.1.23, nanoid@^3.1.28:
-  version "3.1.29"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.29.tgz#214fb2d7a33e1a5bef4757b779dfaeb6a4e5aeb4"
-  integrity sha512-dW2pUSGZ8ZnCFIlBIA31SV8huOGCHb6OwzVCc7A69rb/a+SgPBwfmLvK5TKQ3INPbRkcI8a/Owo0XbiTNH19wg==
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.2.tgz#c89622fafb4381cd221421c69ec58547a1eec557"
+  integrity sha512-CuHBogktKwpm5g2sRgv83jEy2ijFzBwMoYA60orPDR7ynsLijJDqgsi4RDGj3OJpy3Ieb+LYwiRmIOGyytgITA==
 
 nanomatch@^1.2.9:
   version "1.2.13"
