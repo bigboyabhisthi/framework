@@ -1466,8 +1466,26 @@
     upath "^2.0.1"
 
 "@nuxt/kit@link:../packages/kit":
-  version "0.0.0"
-  uid ""
+  version "3.0.0"
+  dependencies:
+    consola "^2.15.3"
+    create-require "^1.1.1"
+    defu "^5.0.0"
+    dotenv "^10.0.0"
+    globby "^11.0.4"
+    hash-sum "^2.0.0"
+    hookable "^5.0.0"
+    jiti "^1.12.7"
+    lodash.template "^4.5.0"
+    mlly "^0.2.6"
+    pathe "^0.2.0"
+    rc9 "^1.2.0"
+    scule "^0.2.1"
+    semver "^7.3.5"
+    std-env "^2.3.1"
+    ufo "^0.7.9"
+    unctx "^1.0.2"
+    untyped "^0.2.9"
 
 "@nuxt/kit@npm:@nuxt/kit-edge":
   version "3.0.0-27226619.4572661"
@@ -10133,9 +10151,9 @@ source-map-resolve@^0.5.0:
     urix "^0.1.0"
 
 source-map-support@~0.5.12, source-map-support@~0.5.20:
-  version "0.5.20"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.20.tgz#12166089f8f5e5e8c56926b377633392dd2cb6c9"
-  integrity sha512-n1lZZ8Ve4ksRqizaBQgxXDgKwttHDhyfQjA6YZZn8+AroHbsIz+JjwxQDxbp+7y5OYCI8t1Yk7etjD9CRd2hIw==
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
+  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
@@ -10563,9 +10581,9 @@ terser-webpack-plugin@^4.2.3:
     webpack-sources "^1.4.3"
 
 terser@^4.1.2, terser@^4.6.3:
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.0.tgz#63056343d7c70bb29f3af665865a46fe03a0df17"
-  integrity sha512-EAPipTNeWsb/3wLPeup1tVPaXfIaU68xMnVdPafIL1TV05OhASArYyIfFvnvJCNrR2NIOvDVNNTFRa+Re2MWyw==
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.1.tgz#a00e5634562de2239fd404c649051bf6fc21144f"
+  integrity sha512-4GnLC0x667eJG0ewJTa6z/yXrbLGv80D9Ru6HIpCQmO+Q4PfEtBFi0ObSckqwL6VyQv/7ENJieXHo2ANmdQwgw==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
